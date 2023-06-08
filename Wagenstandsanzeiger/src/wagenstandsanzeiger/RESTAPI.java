@@ -71,10 +71,8 @@ public class RESTAPI {
         // optional, but recommended
         // process XML securely, avoid attacks like XML External Entities (XXE)
         dbf.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-
         // parse XML file
         DocumentBuilder db = dbf.newDocumentBuilder();
-
         Document doc = null;
         // Creates a new File instance by converting the given pathname string
         // into an abstract pathname
